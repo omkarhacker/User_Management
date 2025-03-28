@@ -1,8 +1,33 @@
-# React + Vite
+# User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![User Management Dashboard](https://via.placeholder.com/800x400?text=User+Management+Dashboard)
 
-Currently, two official plugins are available:
+A responsive user management application built with Vite, React, and Material-UI that allows viewing, searching, editing, and deleting users with pagination support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **User Listing**: View paginated list of users with avatars
+- **Advanced Search**: Search across current page or all users
+- **CRUD Operations**: Edit and delete user records
+- **Responsive Design**: Works on mobile, tablet, and desktop
+- **Modern UI**: Clean Material-UI interface with smooth animations
+
+## Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/user-management.git
+cd user-management
+
+### Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
