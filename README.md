@@ -25,9 +25,13 @@ A responsive user management application built with Vite, React, and Material-UI
 git clone https://github.com/your-username/user-management.git
 cd user-management
 
-### Install dependencies:
-
+2. Install dependencies:
 ```bash
 npm install
 # or
 yarn install
+
+3. Create .env file:
+```bash
+echo "VITE_API_URL=https://reqres.in/api" > .env
+
