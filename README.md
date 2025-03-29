@@ -28,7 +28,7 @@ A user management system that allows users to list, search, edit, and delete use
 
 3. **Create `.env` file**:
     ```bash
-    echo "VITE_API_URL=https://reqres.in/api" > .env
+    "VITE_API_URL=https://reqres.in/api"
     ```
 
 4. **Run the app**:
