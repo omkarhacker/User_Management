@@ -1,37 +1,39 @@
 # User Management System
 
-![User Management Dashboard](https://via.placeholder.com/800x400?text=User+Management+Dashboard)
-
-A responsive user management application built with Vite, React, and Material-UI that allows viewing, searching, editing, and deleting users with pagination support.
+A user management system that allows users to list, search, edit, and delete users.
 
 ## Features
 
-- **User Listing**: View paginated list of users with avatars
-- **Advanced Search**: Search across current page or all users
-- **CRUD Operations**: Edit and delete user records
-- **Responsive Design**: Works on mobile, tablet, and desktop
-- **Modern UI**: Clean Material-UI interface with smooth animations
+- **List Users**: Display users fetched from an API.
+- **Search Users**: Search by first name, last name, or email across all pages or a single page.
+- **Pagination**: Supports pagination to navigate through users.
+- **Edit User**: Update user information and reflect changes in the UI.
+- **Delete User**: Remove users from the list.
+- **Search All Pages**: Option to search across all pages or within the current page.
 
-## Installation
+## Setup Instructions
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/user-management.git
+    cd user-management
+    ```
 
-### Setup Instructions
+2. **Install dependencies**:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/user-management.git
-cd user-management
+3. **Create `.env` file**:
+    ```bash
+    echo "VITE_API_URL=https://reqres.in/api" > .env
+    ```
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-
-3. Create .env file:
-```bash
-echo "VITE_API_URL=https://reqres.in/api" > .env
-
+4. **Run the app**:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
